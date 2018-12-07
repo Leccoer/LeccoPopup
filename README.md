@@ -1,2 +1,2 @@
 # LeccoPopup
- pod 'leccoPopup','-> 1.0.0'
+ pod 'LeccoPopup','-> 1.0.0'
