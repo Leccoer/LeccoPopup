@@ -13,6 +13,14 @@
 		9187278421BA23790055E45D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9187278321BA23790055E45D /* Assets.xcassets */; };
 		9187278721BA23790055E45D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9187278521BA23790055E45D /* LaunchScreen.storyboard */; };
 		9187278A21BA23790055E45D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9187278921BA23790055E45D /* main.m */; };
+		9187279421BA23C00055E45D /* LeccoPopupBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9187279321BA23C00055E45D /* LeccoPopupBackgroundView.m */; };
+		9187279721BA23E50055E45D /* LeccoPopupViewAnimationDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 9187279621BA23E50055E45D /* LeccoPopupViewAnimationDrop.m */; };
+		9187279A21BA23FC0055E45D /* LeccoPopupViewAnimationFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 9187279921BA23FC0055E45D /* LeccoPopupViewAnimationFade.m */; };
+		9187279D21BA24080055E45D /* LeccoPopupViewAnimationSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 9187279C21BA24080055E45D /* LeccoPopupViewAnimationSlide.m */; };
+		918727A021BA24160055E45D /* LeccoPopupViewAnimationSpring.m in Sources */ = {isa = PBXBuildFile; fileRef = 9187279F21BA24160055E45D /* LeccoPopupViewAnimationSpring.m */; };
+		918727A321BA24350055E45D /* UIViewController+LeccoPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 918727A221BA24350055E45D /* UIViewController+LeccoPopupViewController.m */; };
+		918727A621BA30810055E45D /* TestPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 918727A521BA30810055E45D /* TestPopupView.m */; };
+		918727AA21BA30D40055E45D /* TestPopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 918727A921BA30D40055E45D /* TestPopupView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,22 @@
 		9187278621BA23790055E45D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9187278821BA23790055E45D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9187278921BA23790055E45D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9187279121BA23A20055E45D /* LeccoPopup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeccoPopup.h; sourceTree = "<group>"; };
+		9187279221BA23C00055E45D /* LeccoPopupBackgroundView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeccoPopupBackgroundView.h; sourceTree = "<group>"; };
+		9187279321BA23C00055E45D /* LeccoPopupBackgroundView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeccoPopupBackgroundView.m; sourceTree = "<group>"; };
+		9187279521BA23E50055E45D /* LeccoPopupViewAnimationDrop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeccoPopupViewAnimationDrop.h; sourceTree = "<group>"; };
+		9187279621BA23E50055E45D /* LeccoPopupViewAnimationDrop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeccoPopupViewAnimationDrop.m; sourceTree = "<group>"; };
+		9187279821BA23FC0055E45D /* LeccoPopupViewAnimationFade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeccoPopupViewAnimationFade.h; sourceTree = "<group>"; };
+		9187279921BA23FC0055E45D /* LeccoPopupViewAnimationFade.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeccoPopupViewAnimationFade.m; sourceTree = "<group>"; };
+		9187279B21BA24080055E45D /* LeccoPopupViewAnimationSlide.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeccoPopupViewAnimationSlide.h; sourceTree = "<group>"; };
+		9187279C21BA24080055E45D /* LeccoPopupViewAnimationSlide.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeccoPopupViewAnimationSlide.m; sourceTree = "<group>"; };
+		9187279E21BA24160055E45D /* LeccoPopupViewAnimationSpring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeccoPopupViewAnimationSpring.h; sourceTree = "<group>"; };
+		9187279F21BA24160055E45D /* LeccoPopupViewAnimationSpring.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeccoPopupViewAnimationSpring.m; sourceTree = "<group>"; };
+		918727A121BA24350055E45D /* UIViewController+LeccoPopupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LeccoPopupViewController.h"; sourceTree = "<group>"; };
+		918727A221BA24350055E45D /* UIViewController+LeccoPopupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LeccoPopupViewController.m"; sourceTree = "<group>"; };
+		918727A421BA30810055E45D /* TestPopupView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPopupView.h; sourceTree = "<group>"; };
+		918727A521BA30810055E45D /* TestPopupView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPopupView.m; sourceTree = "<group>"; };
+		918727A921BA30D40055E45D /* TestPopupView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestPopupView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +66,7 @@
 		9187276E21BA23780055E45D = {
 			isa = PBXGroup;
 			children = (
+				9187279021BA23870055E45D /* LeccoPopup */,
 				9187277921BA23780055E45D /* LeccoPopupDemo */,
 				9187277821BA23780055E45D /* Products */,
 			);
@@ -60,6 +85,9 @@
 			children = (
 				9187277A21BA23780055E45D /* AppDelegate.h */,
 				9187277B21BA23780055E45D /* AppDelegate.m */,
+				918727A421BA30810055E45D /* TestPopupView.h */,
+				918727A521BA30810055E45D /* TestPopupView.m */,
+				918727A921BA30D40055E45D /* TestPopupView.xib */,
 				9187277D21BA23780055E45D /* ViewController.h */,
 				9187277E21BA23780055E45D /* ViewController.m */,
 				9187278021BA23780055E45D /* Main.storyboard */,
@@ -69,6 +97,26 @@
 				9187278921BA23790055E45D /* main.m */,
 			);
 			path = LeccoPopupDemo;
+			sourceTree = "<group>";
+		};
+		9187279021BA23870055E45D /* LeccoPopup */ = {
+			isa = PBXGroup;
+			children = (
+				9187279121BA23A20055E45D /* LeccoPopup.h */,
+				9187279221BA23C00055E45D /* LeccoPopupBackgroundView.h */,
+				9187279321BA23C00055E45D /* LeccoPopupBackgroundView.m */,
+				9187279521BA23E50055E45D /* LeccoPopupViewAnimationDrop.h */,
+				9187279621BA23E50055E45D /* LeccoPopupViewAnimationDrop.m */,
+				9187279821BA23FC0055E45D /* LeccoPopupViewAnimationFade.h */,
+				9187279921BA23FC0055E45D /* LeccoPopupViewAnimationFade.m */,
+				9187279B21BA24080055E45D /* LeccoPopupViewAnimationSlide.h */,
+				9187279C21BA24080055E45D /* LeccoPopupViewAnimationSlide.m */,
+				9187279E21BA24160055E45D /* LeccoPopupViewAnimationSpring.h */,
+				9187279F21BA24160055E45D /* LeccoPopupViewAnimationSpring.m */,
+				918727A121BA24350055E45D /* UIViewController+LeccoPopupViewController.h */,
+				918727A221BA24350055E45D /* UIViewController+LeccoPopupViewController.m */,
+			);
+			path = LeccoPopup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9187278721BA23790055E45D /* LaunchScreen.storyboard in Resources */,
+				918727AA21BA30D40055E45D /* TestPopupView.xib in Resources */,
 				9187278421BA23790055E45D /* Assets.xcassets in Resources */,
 				9187278221BA23780055E45D /* Main.storyboard in Resources */,
 			);
@@ -142,8 +191,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				9187277F21BA23780055E45D /* ViewController.m in Sources */,
+				9187279A21BA23FC0055E45D /* LeccoPopupViewAnimationFade.m in Sources */,
+				918727A021BA24160055E45D /* LeccoPopupViewAnimationSpring.m in Sources */,
+				918727A321BA24350055E45D /* UIViewController+LeccoPopupViewController.m in Sources */,
 				9187278A21BA23790055E45D /* main.m in Sources */,
+				9187279721BA23E50055E45D /* LeccoPopupViewAnimationDrop.m in Sources */,
+				9187279421BA23C00055E45D /* LeccoPopupBackgroundView.m in Sources */,
+				918727A621BA30810055E45D /* TestPopupView.m in Sources */,
 				9187277C21BA23780055E45D /* AppDelegate.m in Sources */,
+				9187279D21BA24080055E45D /* LeccoPopupViewAnimationSlide.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

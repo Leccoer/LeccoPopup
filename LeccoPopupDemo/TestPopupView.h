@@ -6,11 +6,16 @@
 //  Copyright © 2018 yixin. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TestPopupView : NSObject
+typedef void (^CalculatorView1Dismiss)();
+
+@interface TestPopupView : UIView
+
+@property (nonatomic, copy) CalculatorView1Dismiss dismiss;
+
 
 @end
 

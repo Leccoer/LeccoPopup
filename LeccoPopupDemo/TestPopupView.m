@@ -10,4 +10,11 @@
 
 @implementation TestPopupView
 
+- (IBAction)closeButtonPressed:(id)sender {
+    if (_dismiss != nil) {
+        _dismiss();
+    }
+}
+
+
 @end

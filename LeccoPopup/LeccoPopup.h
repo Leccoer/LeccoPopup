@@ -9,5 +9,11 @@
 #ifndef LeccoPopup_h
 #define LeccoPopup_h
 
+#import "UIViewController+LeccoPopupViewController.h"
+#import "LeccoPopupViewAnimationFade.h"
+#import "LeccoPopupViewAnimationSlide.h"
+#import "LeccoPopupViewAnimationSpring.h"
+#import "LeccoPopupViewAnimationDrop.h"
+
 
 #endif /* LeccoPopup_h */

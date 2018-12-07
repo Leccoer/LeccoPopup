@@ -7,10 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "UIViewController+LeccoPopupViewController.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LeccoPopupViewAnimationFade : NSObject
+@interface LeccoPopupViewAnimationFade : NSObject<LeccoPopupAnimation>
 
 @end
 

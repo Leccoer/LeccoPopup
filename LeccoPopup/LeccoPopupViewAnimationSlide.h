@@ -7,11 +7,24 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "UIViewController+LeccoPopupViewController.h"
+
+typedef NS_ENUM(NSUInteger, LeccoPopupViewAnimationSlideType) {
+    LeccoPopupViewAnimationSlideTypeBottomTop,
+    LeccoPopupViewAnimationSlideTypeBottomBottom,
+    LeccoPopupViewAnimationSlideTypeTopTop,
+    LeccoPopupViewAnimationSlideTypeTopBottom,
+    LeccoPopupViewAnimationSlideTypeLeftLeft,
+    LeccoPopupViewAnimationSlideTypeLeftRight,
+    LeccoPopupViewAnimationSlideTypeRightLeft,
+    LeccoPopupViewAnimationSlideTypeRightRight,
+};
+
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LeccoPopupViewAnimationSlide : NSObject
-
+@interface LeccoPopupViewAnimationSlide : NSObject<LeccoPopupAnimation>
+@property (nonatomic,assign)LeccoPopupViewAnimationSlideType type;
 @end
 
 NS_ASSUME_NONNULL_END
