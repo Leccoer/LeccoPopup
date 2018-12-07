@@ -21,6 +21,7 @@
 		918727A321BA24350055E45D /* UIViewController+LeccoPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 918727A221BA24350055E45D /* UIViewController+LeccoPopupViewController.m */; };
 		918727A621BA30810055E45D /* TestPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 918727A521BA30810055E45D /* TestPopupView.m */; };
 		918727AA21BA30D40055E45D /* TestPopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 918727A921BA30D40055E45D /* TestPopupView.xib */; };
+		918727AC21BA35EF0055E45D /* LeccoPopup.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 918727AB21BA35EF0055E45D /* LeccoPopup.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		918727A421BA30810055E45D /* TestPopupView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPopupView.h; sourceTree = "<group>"; };
 		918727A521BA30810055E45D /* TestPopupView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPopupView.m; sourceTree = "<group>"; };
 		918727A921BA30D40055E45D /* TestPopupView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestPopupView.xib; sourceTree = "<group>"; };
+		918727AB21BA35EF0055E45D /* LeccoPopup.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LeccoPopup.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		9187276E21BA23780055E45D = {
 			isa = PBXGroup;
 			children = (
+				918727AB21BA35EF0055E45D /* LeccoPopup.podspec */,
 				9187279021BA23870055E45D /* LeccoPopup */,
 				9187277921BA23780055E45D /* LeccoPopupDemo */,
 				9187277821BA23780055E45D /* Products */,
@@ -179,6 +182,7 @@
 				9187278721BA23790055E45D /* LaunchScreen.storyboard in Resources */,
 				918727AA21BA30D40055E45D /* TestPopupView.xib in Resources */,
 				9187278421BA23790055E45D /* Assets.xcassets in Resources */,
+				918727AC21BA35EF0055E45D /* LeccoPopup.podspec in Resources */,
 				9187278221BA23780055E45D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
